@@ -93,6 +93,10 @@ body {
     margin-top: 4%;
 }
 
+.card{
+    width: 20rem;
+}
+
 
 /*Section 2*/
 
@@ -138,7 +142,7 @@ body {
     color: rgba(0, 0, 0, 0.59);
 }
 
-/*Section $*/
+/*Section 4*/
 
 .section-4{
     margin-top: 8%;
@@ -160,4 +164,57 @@ body {
     font-family: 'Roboto Condensed';
     margin-top: 7%;
     font-size: 23px;
+}
+
+/* footer 5 */
+
+.social{
+    color: #EF5651;
+    font-size: 20px ;
+}
+
+@media sreen and (max-width: 768px){
+    .section-1 .card{
+        width: 14rem;
+    }
+
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+}
+
+@media sreen and (max-width: 320){
+   .site-content .site-title{
+       font-size: 30px;
+       padding-left: 15%;
+   }
+
+   .site-content .site-btn2{
+       display: none;
+   }
+
+   .site-content .site-btn1{
+       margin-left: 15%;
+   }
+
+   .section-1 .heading-1 , .section-1 .heading-2{
+       font-size: 25px;
+   }
+
+   .section-1 .col-md-4{
+       padding: 5%;
+       margin-left: 8%;
+   }
+
+   .section-1 .card{
+       width: 15rem;
+   }
+
+   .section-4 .col-md-5{
+       padding: 0% 15%;
+   }
+
+   footer input[type="button"]{
+       margin-top: 5%;
+   }
 }
